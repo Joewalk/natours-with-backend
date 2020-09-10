@@ -57,7 +57,7 @@ module.exports = class Email {
     await this.newTransport()
       .messages()
       .send(mailOptions, function(error, body) {
-        console.log(body);
+        // console.log(body);
       });
   }
 
